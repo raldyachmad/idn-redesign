@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raldy Achmad Chusaeny</title>
+    <link rel="shortcut icon" href="./assets/img/hero.gif" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        footer .form-control::placeholder {
+            color: white;
+        }
+
+        .jurusan {
+            background-color: #172aff28;
+            height: 270px;
+            color: #172bff;
+            transition: 0.6s;
+        }
+
+        .jurusan:hover {
+            background-color: #172bff;
+            color: white;
+        }
+
+        .jurusan .btn {
+            display: none;
+        }
+
+        .jurusan:hover .btn {
+            display: block;
+            color: #172bff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar-example2" class="navbar fixed-top navbar-expand-lg shadow-sm bg-primary" data-bs-theme="dark">
+            <div class="container-fluid px-sm-5">
+                <a class="navbar-brand  page-scroll" href="./index.html">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <span class="fw-medium fs-4">IDN</span>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-2">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link active" aria-current="page">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./tentang.html" class="nav-link" aria-current="page">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./buku-tamu.html" class="nav-link" aria-current="page">Buku Tamu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./kontak.html" class="nav-link" aria-current="page">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main style="min-height: 70vh;">
+        <section
+            class="vh-100  d-flex flex-column-reverse flex-sm-row align-items-center justify-content-center text-white"
+            style="background-image: url('./assets/img/pattern.svg');background-size: 200px;">
+            <div>
+                <h1 class="fs-1 fw-bold">IDN Boarding School</h1>
+                <p class="fs-3">Sekolah Jagoan IT, Pinter Ngaji</p>
+                <a href="./tentang.html" class="btn btn-light rounded-1">Selengkapnya</a>
+            </div>
+            <img src="./assets/img/hero.gif" width="500" style="max-width: 100%;">
+        </section>
+        <section class="py-5">
+            <h2 class="text-center">Jurusan</h2>
+            <div class="container-fluid row gap-3 m-0 px-4 align-items-center justify-content-center mt-3 p-0">
+                <div class="col-sm-3 rounded p-4 jurusan d-flex flex-column justify-content-between jurusan">
+                    <div>
+                        <h4>Jurusan Designer</h4>
+                        <p>Sekolah DMM Bogor ini Mempelajari UIUX Design, Figma, UX researcher, UI Design, 3D Design,
+                            Marketplace Design dll</p>
+                    </div>
+                    <a href="./designer.html" class="btn btn-light text-start" style="width: fit-content;">Lihat
+                        Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="col-sm-3 rounded p-4 jurusan d-flex flex-column justify-content-between jurusan">
+                    <div>
+                        <h4>Jurusan Programmer</h4>
+                        <p>Sekolah RPL Bogor ini Mempelajari Pemrograman Web & Mobile. PHP MySQL CSS Laravel Framework,
+                            Android Flutter</p>
+                    </div>
+                    <a href="./programmer.html" class="btn btn-light text-start" style="width: fit-content;">Lihat
+                        Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="col-sm-3 rounded p-4 jurusan d-flex flex-column justify-content-between jurusan">
+                    <div>
+                        <h4>Jurusan Engineer</h4>
+                        <p>Sekolah TKJ Bogor ini Mempelajari Jaringan Komputer, Cisco CCNA, CCNP, CCIE, Mikrotik,
+                            DevOps, AWS Cloud</p>
+                    </div>
+                    <a href="./engineer.html" class="btn btn-light text-start" style="width: fit-content;">Lihat
+                        Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <h2 class="text-center">Mengapa Sekolah di IDN?</h2>
+            <div class="row px-5 mt-3 w-100">
+                <div class="col-sm-4 d-flex gap-4 p-3 justify-content-between">
+                    <img src="./assets/img/hotel.png" class="object-fit-cover" height="70" width="70">
+                    <div class="p-0">
+                        <h3>Sekolah IT Terbaik</h3>
+                        <p>Terbukti dengan lulusan kami yang diatas standard atau bisa dikatakan expert</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex gap-4 p-3 justify-content-between">
+                    <img src="./assets/img/ekstra.png" class="object-fit-cover" height="70" width="70">
+                    <div class="p-0">
+                        <h3>Ekstrakulikuler Istimewa</h3>
+                        <p>Backpacking ASEAN, Edurace, Entrepreneur, Public Speaking, Berkuda, Beladiri, Character
+                            Building, Leadership Camp, Memanah, Susur Sungai, Panjat Tebing, Pecinta Alam, Berenang,
+                            Business Survival.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex gap-4 p-3 justify-content-between">
+                    <img src="./assets/img/pengajar.png" class="object-fit-cover" height="70" width="70">
+                    <div class="p-0">
+                        <h3>Tenaga Pengajar Profesional</h3>
+                        <p>S2 UI CCIE, Alumni STDI Imam Syafii Jember, Florida USA, dll</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex gap-4 p-3 justify-content-between">
+                    <img src="./assets/img/prog.png" class="object-fit-cover" height="70" width="70">
+                    <div class="p-0">
+                        <h3>Program Unggulan</h3>
+                        <p>Menumbuh kembangkan soft skill maupun skill kompetensi melalui IDN Mengajar, Bootcamp,
+                            Leadership Camp, English Camp, IT Camp, dan masih banyak lagi.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex gap-4 p-3 justify-content-between">
+                    <img src="./assets/img/pesantern.png" class="object-fit-cover" height="70" width="70">
+                    <div class="p-0">
+                        <h3>Pesantren Berbasis IT</h3>
+                        <p>Setiap hari ada kajian diniyyah dan halaqah tahfidz</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex gap-4 p-3 justify-content-between">
+                    <img src="./assets/img/praktek.png" class="object-fit-cover" height="70" width="70">
+                    <div class="p-0">
+                        <h2>Full Praktek</h2>
+                        <p>Sekolah full praktek agar siap terjun di lapangan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="row w-100 justify-content-center text-white py-4 m-0" style="background-color:#10182f;">
+
+        <div class="col-sm-2">
+            <b class="mb-2 d-block pt-3 pt-sm-0">Navigasi</b>
+            <ul class="navbar-nav ms-auto gap-2">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link p-0" aria-current="page">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./tentang.html" class="nav-link p-0" aria-current="page">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./buku-tamu.html" class="nav-link p-0" aria-current="page">Buku Tamu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./kontak.html" class="nav-link p-0" aria-current="page">Kontak</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <b class="mb-2 d-block pt-3 pt-sm-0">
+                Ikuti
+            </b>
+            <p>Berlangganan buletin kami untuk mendapatkan dosis mingguan berita, pembaruan, tips bermanfaat, dan
+                penawaran eksklusif.</p>
+            <form action="" class="row gap-2 w-100 m-0">
+                <input type="text" class="form-control col text-white" placeholder="Email Anda"
+                    style="background: none;">
+                <button type="submit" class="btn btn-light col-2 p-0">ikuti</button>
+            </form>
+        </div>
+        <div class="col-sm-3 ">
+            <b class="mb-2 d-block pt-3 pt-sm-0">Peta</b>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224263.35493509573!2d106.67081411288875!3d-6.5949614106367225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b9df518b588d%3A0x2e3c9705698fa0fd!2sIDN%20Boarding%20School%20Sentul!5e1!3m2!1sid!2sid!4v1731142944614!5m2!1sid!2sid"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
